@@ -30,7 +30,7 @@ din = 1'b1;
 din = 1'b0;
 #10;
 $stop;
-end
+end //
 
 always #1 clk = ~ clk;
 endmodule
